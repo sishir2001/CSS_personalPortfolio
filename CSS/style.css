@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    width: 35%;
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+a{
+    color: #11999E;
+}
+.top-container{
+    background-color: #d8e3e7;
+    position: relative;
+    padding: 100px;
+}
+.middle-container{
+
+}
+.bottom-container{
+    margin: 0;
+    background-color: #51c4d3;
+    padding: 30px;
+}
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border-style: solid;
+    border-color: #d8e3e7;
+    margin-top: 10px;
+}
+.profile-img:hover{
+    border-color: #51c4d3;
+}
+.skills-row-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #d8e3e7;
+    margin-top: 10px;
+}
+.skills-row-img:hover{
+    border-color: #51c4d3;
+}
+.androidDevelopment-img{
+    float: left;
+    margin-right: 30px;
+}
+.problemSolving-img{
+    float: right;
+    margin-left: 30px;
+}
+.skills{
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+hr{
+    border-width: 7px;
+    width: 10%;
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    padding: 1em;
+}
+#copyright{
+    color: #EAF6F6;
+}
+.footer-link{
+    text-decoration: none;
+    padding: 10px;
+}
+#contactPara{
+    width: 40%;
+    margin: 40px auto 40px auto;
+    padding: 10px;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 19px;
+   font-weight: 100;
+   padding: 12px;
+   background-color: #51C4D3;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.btn:hover {
+   background: #1E62D0;
+   border: solid #4B778D 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
